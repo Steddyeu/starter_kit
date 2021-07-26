@@ -14,6 +14,8 @@ contract Color is ERC721Full {
   }
 
   function mint(string memory _color) public {
+    // require a unique Colour
+    require(!_colorExists[_color]);
    uint _id = colors.push(_color);
    _mint(msg.sender, _id);
   _colorExists[_color] = true;
