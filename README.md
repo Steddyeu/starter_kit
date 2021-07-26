@@ -1,0 +1,1 @@
+erc 721 standard for making NFT's -> http://erc721.org/
