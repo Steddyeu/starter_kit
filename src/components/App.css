@@ -1,1 +1,12 @@
 /* Styles go here */
+.account-nav {
+  color: white;
+  list-style-type: none;
+}
+
+.token {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
